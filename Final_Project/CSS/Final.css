@@ -1,0 +1,114 @@
+body {
+margin: auto;
+background-color: #393939;
+width: 966px;
+}
+
+#header {
+height: 240px;
+background-color: black;
+color: white;
+font-family: Papyrus;
+font-size: 45pt;
+font-weight: bold;
+width: 960px;
+margin-bottom: 3px;
+text-align: center;
+vertical-align: middle;
+line-height: 240px;
+margin-top: 3px;
+}
+
+#footer {
+height: 40px;
+background-color: black;
+font-family: Papyrus;
+bottom: 3px;
+margin-top: 3px;
+width: 960px;
+text-align: center;
+vertical-align: middle;
+line-height: 40px;
+margin-bottom: 3px;
+font-size: 13pt;
+}
+
+#footer a:link, #footer a:visited {
+background-color: black;
+color: white;
+padding: 3px; 
+}
+
+#footer a:hover, #footer a:active {
+background-color: #710b23;
+padding: 3px;
+}
+
+#middle {
+width: 960px;
+height: 900px;
+}
+
+#article {
+width: 777px;
+background-color: #c8002f;
+margin-left: 3px;
+color: white;
+position: relative;
+float: left;
+height: 100%;
+}
+
+#text{
+padding-left: 5px;
+padding-top: 5px;
+}
+
+#nav {
+width: 180px;
+background-color: #c8002f;
+position: relative;
+float: left;
+height: 100%;
+color: white;
+}
+ #nav ul {
+list-style: none;
+}
+
+#nav li a:link, #nav li a:visited {
+background color: #c8002f;
+color: white;
+padding: 3px;
+}
+
+#nav li a:hover, #nav li a:active {
+background-color: #710b23;
+color: white;
+padding: 2.5px;
+}
+
+#table {
+background-color: #c1c1c1;
+color: #710b23;
+}
+
+#table th, #table td {
+border: 1px solid #710b23;
+font-size: 14pt;
+padding: 1px, 1px, 1px, 1px;
+background-color: a1a1a1;
+}
+
+.label {
+font-weight: bold;
+color: white;
+text-align: left;
+}
+
+.info {
+text-align: center;
+}
+
+input, textarea, select {
+border: 1px solid #393939; 
